@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <h1 id="demo">My Calculator ~</h1>
+    <svg width="300" height="900">
+      <rect
+        x="80"
+        y="20"
+        rx="10"
+        ry="10"
+        width="220"
+        height="300"
+        style="
+          fill: rgb(241, 241, 241);
+          stroke: rgb(200, 198, 198);
+          stroke-width: 0.2;
+          stroke-opacity: 0.9;
+        "
+      />
+      <rect
+        x="85"
+        y="25"
+        rx="10"
+        ry="10"
+        width="210"
+        height="60"
+        style="
+          fill: rgb(255, 255, 255);
+          stroke: rgb(200, 198, 198);
+          stroke-width: 0.2;
+          stroke-opacity: 0.9;
+        "
+      />
+    </svg>
+    <h1 id="output"></h1>
+    <button onclick="Number7()" class="button" id="seven" role="button">
+      7
+    </button>
+    <button
+      onclick="Number4()"
+      class="button"
+      id="four"
+      role="button"
+      value="4"
+    >
+      4
+    </button>
+    <button onclick="Number1()" class="button" id="one" role="button" value="1">
+      1
+    </button>
+    <button
+      onclick="Number8()"
+      class="button"
+      id="eight"
+      role="button"
+      value="8"
+    >
+      8
+    </button>
+    <button
+      onclick="Number5()"
+      class="button"
+      id="five"
+      role="button"
+      value="5"
+    >
+      5
+    </button>
+    <button onclick="Number2()" class="button" id="two" role="button" value="2">
+      2
+    </button>
+    <button
+      onclick="Number9()"
+      class="button"
+      id="nine"
+      role="button"
+      value="9"
+    >
+      9
+    </button>
+    <button onclick="Number6()" class="button" id="six" role="button" value="6">
+      6
+    </button>
+    <button
+      onclick="Number3()"
+      class="button"
+      id="three"
+      role="button"
+      value="3"
+    >
+      3
+    </button>
+    <button onclick="plus()" class="button" id="plus" role="button">+</button>
+    <button onclick="minus()" class="button" id="minus" role="button">-</button>
+    <button onclick="divide()" class="button" id="division" role="button">
+      /
+    </button>
+    <button
+      onclick="result()"
+      class="button"
+      id="equal"
+      value="submit"
+      role="submit"
+    >
+      =
+    </button>
+    <button onclick="NumberPoint()" class="button" id="point" role="button">
+      .
+    </button>
+    <button onclick="Number0()" class="button" id="zero" role="button">
+      0
+    </button>
+    <button onclick="multiply()" class="button" id="multiply" role="button">
+      x
+    </button>
+  </body>
+</html>
