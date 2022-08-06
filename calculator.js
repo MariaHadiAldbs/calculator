@@ -64,7 +64,7 @@ function NumberPoint() {
   }
 }
 
-//then ill work on the plus sign
+//then ill work on the signs
 
 function plus() {
   const text = document.getElementById("output").textContent;
@@ -125,53 +125,6 @@ function result() {
     document.getElementById("output").innerHTML = finalResult4;
   }
 }
-/*
-function minusResult() {
-  const text = document.getElementById("output").textContent;
-
-  if (text.includes("", "-") === true) {
-    const firstNumber = text.split("-")[0];
-    const secondNumber = text.split("-")[1];
-    const finalnumber = parseInt(firstNumber) - parseInt(secondNumber);
-
-    document.getElementById("output").innerHTML = finalnumber;
-  }
-}*/
-/*
-function devideResult() {
-  const text = document.getElementById("output").textContent;
-
-  if (text.includes("", "/") === true) {
-    const firstCharecter2 = text.split("/")[0];
-    const secondCharecter2 = text.split("/")[1];
-    parseInt(firstCharecter2);
-    parseInt(secondCharecter2);
-    const finalResult2 = firstCharecter2 / secondCharecter2;
-
-    document.getElementById("output").innerHTML = finalResult2;
-  }
+function reset() {
+  document.getElementById("output").innerHTML = "";
 }
-
-function multiplyResult() {
-  const text = document.getElementById("output").textContent;
-
-  if (text.includes("", "x") === true) {
-    const firstCharecter2 = text.split("x")[0];
-    const secondCharecter2 = text.split("x")[1];
-    const finalResult2 = parseInt(firstCharecter2) * parseInt(secondCharecter2);
-
-    document.getElementById("output").innerHTML = finalResult2;
-  }
-}
-*/
-/*
-function result() {
-  plusResult();
-  minusResult();
-   devideResult();
-  multiplyResult();
-}*/
-/*
-document.getElementById("equal").addEventListener("click", function () {
-  minusResult();
-});*/
