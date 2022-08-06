@@ -150,3 +150,13 @@
         left: 205px;
         top: 335px;
       }
+      #reset {
+        position: absolute;
+        left: 340px;
+        top: 150px;
+      }
+      #output {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 200px;      }
